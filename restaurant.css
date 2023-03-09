@@ -1,0 +1,195 @@
+body{
+    background: rgba(0, 0, 0, 0.5) url(images/r14.jpg) center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#000000 ;
+}
+header H1{
+    color:#FAAB78;
+    font-size: 30PX;
+    
+}
+ header h1{
+    text-align: left;
+    
+}
+header span{
+    color: #9CFF2E;
+}
+ul li a menu{
+    position: absolute;
+    top: 65%;
+    left: 60%;
+    padding: 20PX;
+    font-size: 20PX;
+    font-weight: 900;
+    background-color: blue;
+    border-radius: 30PX;
+}
+UL LI {
+    display: inline-block;
+    padding: 10px;
+    list-style: none;
+}
+ UL LI {
+    text-decoration: none;
+    background-color:#E3CDC1;
+    color:#B67162;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 900 ;
+}
+UL LI:hover{
+    font-size: 30px;
+    background-color: yellow;
+    color: red;
+    transition: 1,5s;
+}
+ul li{
+    border-radius: 30px;
+}
+.bb{
+    color: black;
+}
+.cc{
+    color: black;
+}
+.main{
+    width: 40px;
+    height: 30px;
+    background-color: tomato;
+    animation-name: bbcc;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes bbcc{
+    0%{background-color: tomato;}
+    25%{background-color: #562B08;}
+    50%{background-color: #950101;}
+    100%{background-color: #FB2576;}
+    
+}
+.main{
+    width: 100%;
+    height: 20%;
+    border: 3px;
+    color: aqua;
+}
+.main h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    color: #C3FF99;
+}
+img{
+    width: 190px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 100%;
+}
+.container{
+    width: 100%;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: ;
+    
+}
+.mem1{
+    width: 200px;
+    height: 200px;
+    /* border: 3px solid rgb(14, 139, 41); */
+    /* background-color: aqua; */
+    margin: 9px;
+    
+}
+.mem2{
+    width: 200px;
+    height: 200px;
+    /* border: 3px solid green; */
+    /* background-color: blueviolet; */
+    margin: 9px;
+}
+.mem3{
+    width: 200px;
+    height: 200px;
+    /* border: 3px solid rgb(90, 128, 0); */
+    /* background-color: rgb(198, 226, 43); */
+    margin: 9px;
+}
+.mem4{
+    width: 200px;
+    height: 200px;
+    /* border: 3px solid rgb(128, 0, 43); */
+    /* background-color: rgb(226, 43, 134); */
+    margin: 9px;
+}
+.nnn{
+    width: 200px;
+    height: 200px;
+    /* border: 3px solid rgb(20, 223, 212); */
+    /* background-color: rgb(214, 110, 13); */
+    margin: 9px;
+}
+.nnnn{
+    width: 200px;
+    height: 200px;
+    /* border: 3px solid rgb(235, 220, 14); */
+    /* background-color: rgb(53, 27, 199); */
+    margin: 9px;
+}
+/* .abc{ */
+    /* width: 100%; */
+    /* height: 50%; */
+    /* border: 4px; */
+    /* background-color: yellow ; */
+/*      */
+/* } */
+
+.abc{
+    width: 1320px;
+    height: 400px;
+    display: flex;
+    margin: 15px;
+}
+.abc img{
+    width: 1320px;
+    height: 400px;
+    margin: 15px;
+    
+}
+.asd{
+    width: 1320px;
+    height: 100px;
+    border: 4px;
+    background-color: rgba(red, green, blue, 0.5);
+}
+.asd p h3{
+    color: rgb(190, 10, 109);
+}
+@media screen and {max-width: 480px;}{
+    header h1{
+        font-size: 15px;
+    }
+    header span{
+        font-size: 15px;
+    }
+    ul li a menu{
+        font-size: 10px;
+    }
+    .main{
+        height: 20px;
+    }
+    .main h2{
+        font-size: 20px;
+    }
+    .asd p{
+        font-size: 10px;
+    }
+
+}
